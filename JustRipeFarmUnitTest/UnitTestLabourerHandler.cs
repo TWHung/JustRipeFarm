@@ -23,8 +23,12 @@ namespace JustRipeFarmUnitTest
             LabourerHandler labrHand = new LabourerHandler();
             int resp2 = labrHand.addNewLabourer(dbC.getConn(), labrA);
             Assert.IsNotNull(resp2);
+<<<<<<< HEAD
 
             //WIlliam testing sss
+=======
+            //Hello i am Noah code
+>>>>>>> cbb1543fa3af00eaef991b3c0ad3a101811a35a1
         }
     }
 }
