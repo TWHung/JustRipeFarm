@@ -11,7 +11,6 @@ namespace JustRipeFarmUnitTest
         [TestMethod]
         public void TestAddNewLabour()
         {
-            //I am head
             DBConnector dbC = new DBConnector();
             string resp = dbC.connect();
             Assert.AreEqual("Done", resp);
@@ -21,6 +20,7 @@ namespace JustRipeFarmUnitTest
             labrA.Age = 39;
             labrA.Gender = "male";
 
+            //William testing mou
             LabourerHandler labrHand = new LabourerHandler();
             int resp2 = labrHand.addNewLabourer(dbC.getConn(), labrA);
             Assert.IsNotNull(resp2);
@@ -29,6 +29,7 @@ namespace JustRipeFarmUnitTest
             //WIlliam testing sss
 
             //Hello i am Noah code
+>>>>>>> cbb1543fa3af00eaef991b3c0ad3a101811a35a1
         }
     }
 }
